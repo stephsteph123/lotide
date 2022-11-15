@@ -6,10 +6,13 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-function tail(start) {
-  console.log(start.slice(1));
-}
+const tail = function (start) {
+  let array = [];
+  for (let i = 1; i < start.length; i++) {
+    array.push(start[i]);
+  }
+  return array;
+};
 
-assertEqual(tail([5,6,7]), 5);
-assertEqual(tail(["Hello", "Lighthouse", "Labs"]), "Hello");
-assertEqual(tail([]),);
+assertEqual("Lighthouse Labs", "Lighthouse Labs");
+assertEqual(1, 0);
