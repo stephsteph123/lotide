@@ -7,3 +7,5 @@ const map = function() {
 };
 
 const words = ["ground", "control", "to", "major", "tom"];
+
+module.exports = map;

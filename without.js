@@ -8,13 +8,7 @@ function without(first,second) {
       }
     }
     console.log(newArray)
-  }
+  };
 
-//step 1: review the second array element
-//step 2: find second array element within first array
-//step 3: create new array (dont change the first array)
-//step 4: new array should not have the second array value
-
-without([1, 2, 3], [1]) // => [2, 3]
-without(["1", "2", "3"], [1, 2, "3"]) // => ["1", "2"]
+  module.exports = without;
 
