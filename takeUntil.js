@@ -7,6 +7,9 @@
 //To keep things simple, the callback should only be provided one value: The item in the array.
 
 const takeUntil = function(array, callback) {
+  result = {};
+  console.log(array)
+  console.log(callback)
   for (let item = 0; item < array.length; item++) {
     let arr = array[item];
     if(arr === callback) {
@@ -14,5 +17,9 @@ const takeUntil = function(array, callback) {
     console.log(arr);
   }
 };
+
+const results1 = takeUntil(data1, x => x < 0);
+console.log(results1);
+const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 
 module.exports = takeUntil;

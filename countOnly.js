@@ -1,11 +1,11 @@
-const countOnly = function(allItems, itemsToCount) {
-  const results = {}
-
+const countOnly = function (allItems, itemsToCount) {
+  const result = {};
   for (const item of allItems) {
-    console.log(item);
+    if (itemsToCount[item]) {
+      result[item] = (result[item] || 0) + 1
+    }
   }
-  return results
+  return result;
 }
 
 module.exports = countOnly;
-

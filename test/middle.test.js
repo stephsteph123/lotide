@@ -1,9 +1,9 @@
-const assertEqual = require('../assertEqual');
+//const assertEqual = require('../assertEqual');
 const middle = require('../middle');
 
 
 //test cases
-middle([1]) // => []
+(middle([1])) // => []
 middle([1, 2]) // => []
 middle([1, 2, 3]) // => [2]
 middle([1, 2, 3, 4, 5]) // => [3]

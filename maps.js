@@ -1,11 +1,12 @@
-const map = function() {
+const map = function(array,callback) {
+  console.log()
   const results = [];
   for (let item of array) {
+    console.log(item)
     results.push(callback(item));
   }
+  console.log(results)
   return results;
 };
-
-const words = ["ground", "control", "to", "major", "tom"];
 
 module.exports = map;
