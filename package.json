@@ -1,5 +1,5 @@
 {
-  "name": "stephrowe123/lotide", {
+  "name": "@stephrowe123/lotide",
   "version": "1.0.0",
   "description": "Library of functions similar to other libraries",
   "main": "assertEqual.js",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/stephsteph123/lotide.git"
   },
-  "author": "Step Rowe <>"
+  "author": "Step Rowe <>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/stephsteph123/lotide/issues"
